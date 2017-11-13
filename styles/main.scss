@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFF;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 3rem;
+  color: #F24A4A;
+}
+
+.grid {
+  width: 50vw;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #333333;
+}
+
+.col1, .col2, .col3 {
+  width: 33.33%;
+  border: solid 1px #333333;
+  display: flex;
+  flex-direction: column;
+}
+
+.square {
+  width: 100%;
+  height: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #333333;
+}
